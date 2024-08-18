@@ -1,0 +1,81 @@
+.navbar-items a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 6px;
+}
+
+.home:hover{
+    background-color:gray;
+    color: white;
+    transition: .5s;
+}
+
+.navbar-container{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-areas: '.. content ..';
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-area: content;
+    z-index: 1;
+    
+}
+.burger{
+    display: none;
+}
+
+.sign-log{
+    /* display: grid; */
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-container{
+        display: grid;
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-template-areas: '.. ..content';
+    }
+    .navbar-items{
+        display: none;
+    }
+    .sml-navbar-item{
+        background: beige;
+        position: absolute;
+        top: 50px;
+        display: grid;
+        align-items: center;
+        width: 100%;
+        transition: 2s;
+    }
+    a{
+        text-align: center;
+        
+    }
+
+    .burger{
+        grid-area: content;
+        border-radius:10px;
+        padding:5px;
+        text-align:center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 2s;
+    
+    }
+
+
+    .burgerIcon{
+        font-size: 25px;
+    }
+
+  }

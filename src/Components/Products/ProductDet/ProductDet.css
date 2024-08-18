@@ -1,0 +1,10 @@
+.prod-det{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 25px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 20px;
+
+
+}
