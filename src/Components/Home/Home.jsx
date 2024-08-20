@@ -1,22 +1,21 @@
-import Navbar from '../Navbar/Navbar';
-import Carousel from '../Carousels/Carousel';
-
 import './Home.css'
 import React from 'react';
-import Products from '../Products/Products';
-import Collections from '../Collections/Collections';
-import Footer from '../Footer/Footer';
+import Navigation from "../NavigationBar/Navigation";
+import Carousel from '../Carousel/Carousel';
+import Product from '../Product/Product';
+
+
+
+
 
 
 
 const Home = () => {
     return (
         <div>
-            <Navbar/>
-      <Carousel/>
-      <Products/>
-      <Collections/>
-      <Footer/>
+        <Navigation></Navigation>
+        <Carousel></Carousel>
+        <Product></Product>
         </div>
     );
 };

@@ -1,0 +1,16 @@
+.card-img-top{
+    height: 300px;
+}
+
+.product-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-row-gap: 50px;
+    padding-top: 30px;
+}
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
