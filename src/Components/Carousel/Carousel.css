@@ -1,0 +1,19 @@
+#carouselExampleCaptions{
+    height: 80vh;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.carousel-img{
+    height: 80vh;
+}
+
+@media only screen and (max-width: 600px) {
+    #carouselExampleCaptions{
+        height: 50vh;
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+    .carousel-img{
+    height: 50vh;
+    }
+  }

@@ -4,5 +4,14 @@
     padding-left: 6%;
     padding-right: 6%;
     padding-top: 80px;
-
 }
+
+@media only screen and (max-width: 600px) {
+    .product-det{
+        display: grid;
+        grid-template-columns: 100%;
+        padding-left: 6%;
+        padding-right: 6%;
+        padding-top: 80px;
+    }
+  }

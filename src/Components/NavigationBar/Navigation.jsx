@@ -14,9 +14,9 @@ function Na() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Link className='nav-link' to='/feture'>Featured</Link>
-            <Link className='nav-link' to='/pricing'>Pricing</Link>
-            <NavDropdown title="Category" id="collapsible-nav-dropdown">
+            <Link className='nav-link' to='/fetured'>Featured</Link>
+            {/* <Link className='nav-link' to='/pricing'>Pricing</Link> */}
+            {/* <NavDropdown title="Category" id="collapsible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Category</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
                 Another action
@@ -26,13 +26,11 @@ function Na() {
               <NavDropdown.Item href="#action/3.4">
                 Separated link
               </NavDropdown.Item>
-            </NavDropdown>
+            </NavDropdown> */}
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Track Order</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
-              Something
-            </Nav.Link>
+          <Link className='nav-link' to='/trackorder'>Track Order</Link>
+          <Link className='nav-link' to='/cart'>Cart</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
