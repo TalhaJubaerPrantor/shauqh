@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './ProductDetails.css'
 import Navigation from '../NavigationBar/Navigation'
 import { useLocation } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 const ProductDetails = (props) => {
     
@@ -22,7 +23,7 @@ const ProductDetails = (props) => {
         }
     }
 
-    
+
 
     return (
         <div>
@@ -54,7 +55,7 @@ const ProductDetails = (props) => {
 
 
 
-
+        <Footer/>
         </div>
     );
 };

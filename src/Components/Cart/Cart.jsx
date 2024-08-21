@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import './Cart.css'
 import Navigation from '../NavigationBar/Navigation'
+import Footer from '../Footer/Footer';
 
 const Cart = () => {
 
@@ -40,7 +41,7 @@ const Cart = () => {
             </div>
 
 
-
+            <Footer/>
         </div>
     );
 };

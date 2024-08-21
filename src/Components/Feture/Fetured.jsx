@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Navigation from '../NavigationBar/Navigation'
 import './Fetured.css'
 import { Link } from 'react-router-dom';
+import Footer from '../Footer/Footer';
 
 const Fetured = () => {
     const [products,setProducts]=useState([])
@@ -33,6 +34,7 @@ const Fetured = () => {
             }
 
             </div>
+            <Footer/>
         </div>
     );
 };

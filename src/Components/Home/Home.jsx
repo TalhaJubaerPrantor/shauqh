@@ -3,6 +3,7 @@ import React from 'react';
 import Navigation from "../NavigationBar/Navigation";
 import Carousel from '../Carousel/Carousel';
 import Product from '../Product/Product';
+import Footer from '../Footer/Footer';
 
 
 
@@ -16,6 +17,7 @@ const Home = () => {
         <Navigation></Navigation>
         <Carousel></Carousel>
         <Product></Product>
+        <Footer/>
         </div>
     );
 };

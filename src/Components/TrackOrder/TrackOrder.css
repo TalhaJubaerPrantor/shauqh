@@ -1,0 +1,19 @@
+.track{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.track-des{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.des{
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    text-align: center;
+}
