@@ -24,18 +24,24 @@ const Cart = () => {
 
             {
                 products.map(product=>(
-                    <ul  class="list-group"><br />
-                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <ul  className="list-group"><br />
+                        <li className="list-group-item d-flex justify-content-between align-items-center">
                                 {product.title}
-                            <span style={{background:"#0d6efd"}} class="badge badge-primary badge-pill">{product.id}</span>
+                            <span ><span style={{background:"#0d6efd"}} className="badge badge-primary badge-pill">{product.id}</span> <button className='btn btn-danger'>Delete</button></span>
                         </li>
                     </ul> 
                     
                 ))
-            
             }
 
-            
+            <div className='cheakout'>
+                <div>
+                    Total Price:152154
+                </div>
+                <div>
+                    <button className='btn btn-success'>Cheak Out</button>
+                </div>
+            </div>
 
 
             </div>

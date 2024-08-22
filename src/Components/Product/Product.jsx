@@ -30,7 +30,6 @@ const Product = () => {
                 </div>
             </Link>
                 ))
-            
             }
         </div>
         </div>

@@ -7,7 +7,7 @@
     height: 80vh;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 720px) {
     #carouselExampleCaptions{
         height: 50vh;
         padding-left: 0%;

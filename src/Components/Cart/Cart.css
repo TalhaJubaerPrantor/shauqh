@@ -3,3 +3,12 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.cheakout{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: end;
+    margin-top: 20px;
+}
