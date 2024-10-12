@@ -1,0 +1,99 @@
+[   {
+        "name": "COMBO FOR MAN",
+        "size":"6mlx3",
+        "price": 1099,
+        "img":"/perfume/starry-swagger50.png",
+        "category":"men"
+    },
+    {
+        "name": "COMBO FOR WOMAN",
+        "size":"6mlx3",
+        "price": 1099,
+        "img":"https://shauqh.com/wp-content/uploads/2024/07/cm50-800x800.png",
+        "category":"women"
+    },
+	{
+        "name": "CEO MAN",
+        "size":"50ml",
+        "price": 1999,
+    	"img":"/perfume/ceo-man50.png",
+        "category":"men"
+	},
+    {
+        "name": "CEO WOMAN",
+        "size":"50ml",
+        "price": 1999,
+        "img":"/perfume/ceo-woman50.png",
+        "category":"women"
+    },
+    {
+        "name": "STARRY NIGHT",
+        "size":"50ml",
+        "price": 1999,
+        "img":"/perfume/starry-night50.png",
+        "category":"men"
+    },
+    {
+        "name": "STARRY SWAGGER",
+        "size":"50ml",
+        "price": 1999,
+        "img":"/perfume/starry-swagger50.png",
+        "category":"women"
+    },
+    {
+        "name": "ETHEREAL MUNA",
+        "size":"50ml",
+        "price": 1999,
+        "img":"/perfume/etharial-muna50.png",
+        "category":"men"
+    },
+    {
+        "name": "TOP-G",
+        "size":"50ml",
+        "price": 1999,
+        "img":"/perfume/top-g50.png",
+        "category":"women"
+    },
+    {
+        "name": "CEO MAN",
+        "size":"30ml",
+        "price": 1499,
+    	"img":"/perfume/ceo-man30.png",
+        "category":"men"
+	},
+    {
+        "name": "CEO WOMAN",
+        "size":"30ml",
+        "price": 1499,
+        "img":"/perfume/ceo-woman30.png",
+        "category":"women"
+    },
+    {
+        "name": "STARRY NIGHT",
+        "size":"30ml",
+        "price": 1499,
+        "img":"/perfume/starry-night30.png",
+        "category":"men"
+    },
+    {
+        "name": "STARRY SWAGGER",
+        "size":"30ml",
+        "price": 1499,
+        "img":"/perfume/starry-swagger30.png",
+        "category":"women"
+    },
+    {
+        "name": "ETHEREAL MUNA",
+        "size":"30ml",
+        "price": 1499,
+        "img":"/perfume/etharial-muna30.png",
+        "category":"men"
+    },
+    {
+        "name": "TOP-G",
+        "size":"30ml",
+        "price": 1499,
+        "img":"/perfume/top-g30.png",
+        "category":"women"
+    }
+]
