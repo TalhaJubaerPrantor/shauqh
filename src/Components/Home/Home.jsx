@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import StarryNight from '../50ml/StarryNight/StarryNight';
 import "./Home.css"
 import Navbar from '../Navbar/Navbar';
-import TextWave from '../TextWave/TextWave';
+import Mid from './Products/Products';
+import Category from './Category/Category';
 
 const Home = () => {
 
@@ -32,49 +33,12 @@ const Home = () => {
             <Navbar/>
             <div className='top-banner'>
                 <div className="right" >
-                    <img style={{height:"700px", width:"700px",userSelect:"none",transform:"scaleX(-1)"}} src="/pic/pic-top.png" alt="" />
+                    <img style={{height:"700px", width:"100%",userSelect:"none",transform:"scaleX(-1)"}} src="/pic/pic-top.png" alt="" />
                 </div>
            
             <div className='middle'>
-               <div className='mid'> 
-                <h2>
-                    Get Your
-                </h2>
-                <h2>
-                    Get Your
-                </h2>
-               </div>
-<br /><br />
-               <div className='mid1'> 
-                <h2>
-                    SIGNETURE
-                </h2>
-                <h2>
-                    SIGNETURE
-                </h2>
-                </div>
-<br /><br />
-
-                <div className='mid2'> 
-                <h2>
-                    PERFUME
-                </h2>
-                <h2>
-                    PERFUME
-                </h2>
-                </div>
-<br /><br />
-
-                <div className='mid3'> 
-                <h2>
-                    NOW
-                </h2>
-                <h2>
-                    NOW
-                </h2>
-                </div>
-
-              
+                <h1>GET YOUR SIGNETURE PERFUME NOW</h1>
+                <h3><span style={{color:"red"}}>30%OFF</span> Ongoing</h3>
             </div>
             <div className='left'> 
                 <StarryNight></StarryNight>
@@ -82,9 +46,14 @@ const Home = () => {
         </div>
 
         <div>
+            <br /><br />
+            <Category/>
+        </div>
+
+
+        <div>
             
-        {/* <TextWave/> */}
-            
+       <Mid/>
         </div>
 
         </div>

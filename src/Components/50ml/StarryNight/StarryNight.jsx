@@ -15,7 +15,7 @@ const StarryNight = () => {
 
     return (
         <>
-            <Canvas  dpr={[1,2]} shadows camera={{fov:10}} style={{"position":"absolute",height:"700px",width:"700px", borderRadius:"10px"}}>
+            <Canvas  dpr={[1,2]} shadows camera={{fov:10}} style={{"position":"absolute",height:"600px",width:"600px", borderRadius:"10px"}}>
                 <OrbitControls/>
                 <ambientLight intensity={2}/>
                 <directionalLight intensity={5} position={[0,15,15]}/>

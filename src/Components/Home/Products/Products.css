@@ -1,0 +1,14 @@
+.prod{
+    border: .5px solid;
+    width: 400px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.prod-container{
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-gap: 10px;
+    margin-left: 2%;
+    margin-right: 2%;
+}

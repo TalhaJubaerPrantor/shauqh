@@ -1,17 +1,5 @@
-[   {
-        "name": "COMBO FOR MAN",
-        "size":"6mlx3",
-        "price": 1099,
-        "img":"/perfume/starry-swagger50.png",
-        "category":"men"
-    },
-    {
-        "name": "COMBO FOR WOMAN",
-        "size":"6mlx3",
-        "price": 1099,
-        "img":"https://shauqh.com/wp-content/uploads/2024/07/cm50-800x800.png",
-        "category":"women"
-    },
+[   
+
 	{
         "name": "CEO MAN",
         "size":"50ml",
