@@ -5,83 +5,119 @@
         "size":"50ml",
         "price": 1999,
     	"img":"/perfume/ceo-man50.png",
-        "category":"men"
+        "category":"men",
+        "top":" Bergamot, Lemon, Mandarin Orange",
+        "heart":"Lavender, Cedarwood, Sage",
+        "base":"Amber, Musk, Vetiver"
 	},
     {
         "name": "CEO WOMAN",
         "size":"50ml",
         "price": 1999,
         "img":"/perfume/ceo-woman50.png",
-        "category":"women"
+        "category":"women",
+        "top":"Bergamot, Mandarin Orange, Coffee",
+        "heart":"Jasmine, Rose, Lily-of-the-Valley, Lemon",
+        "base":"Musk, Sandalwood, Vanilla"
     },
     {
         "name": "STARRY NIGHT",
         "size":"50ml",
         "price": 1999,
         "img":"/perfume/starry-night50.png",
-        "category":"men"
+        "category":"men",
+        "top":"Peach, Pear, Pineapple",
+        "heart":"Rose, Jasmine, Lily-of-the-Valley",
+        "base":"Sandalwood, Musk, Oakmoss"
     },
     {
         "name": "STARRY SWAGGER",
         "size":"50ml",
         "price": 1999,
         "img":"/perfume/starry-swagger50.png",
-        "category":"women"
+        "category":"women",
+        "top":"Grapefruit, Lemon, Mint",
+        "heart":"Cardamom, Cinnamon, Leather",
+        "base":"Cedarwood, Vanilla, Amber"
     },
     {
         "name": "ETHEREAL MUNA",
         "size":"50ml",
         "price": 1999,
         "img":"/perfume/etharial-muna50.png",
-        "category":"men"
+        "category":"women",
+        "top":"Camelia, Apple Tree Blossom, Mandarin Orange",
+        "heart":"Violet, Lemon, Rose",
+        "base":"Sandalwood, Musk, Magnolia"
     },
     {
         "name": "TOP-G",
         "size":"50ml",
         "price": 1999,
         "img":"/perfume/top-g50.png",
-        "category":"women"
+        "category":"men",
+        "top":"Apple, Lemon, Pepper",
+        "heart":"Lavender, Patchouli, Pineapple",
+        "base":"Oakmoss, Ambroxan, Cedarwood"
     },
     {
         "name": "CEO MAN",
         "size":"30ml",
         "price": 1499,
     	"img":"/perfume/ceo-man30.png",
-        "category":"men"
+        "category":"men",
+        "top":" Bergamot, Lemon, Mandarin Orange",
+        "heart":"Lavender, Cedarwood, Sage",
+        "base":"Amber, Musk, Vetiver"
 	},
     {
         "name": "CEO WOMAN",
         "size":"30ml",
         "price": 1499,
         "img":"/perfume/ceo-woman30.png",
-        "category":"women"
+        "category":"women",
+        "top":"Bergamot, Mandarin Orange, Coffee",
+        "heart":"Jasmine, Rose, Lily-of-the-Valley, Lemon",
+        "base":"Musk, Sandalwood, Vanilla"
     },
     {
         "name": "STARRY NIGHT",
         "size":"30ml",
         "price": 1499,
         "img":"/perfume/starry-night30.png",
-        "category":"men"
+        "category":"men",
+        "top":"Peach, Pear, Pineapple",
+        "heart":"Rose, Jasmine, Lily-of-the-Valley",
+        "base":"Sandalwood, Musk, Oakmoss"
     },
     {
         "name": "STARRY SWAGGER",
         "size":"30ml",
         "price": 1499,
         "img":"/perfume/starry-swagger30.png",
-        "category":"women"
+        "category":"women",
+        "top":"Grapefruit, Lemon, Mint",
+        "heart":"Cardamom, Cinnamon, Leather",
+        "base":"Cedarwood, Vanilla, Amber"
     },
     {
         "name": "ETHEREAL MUNA",
         "size":"30ml",
         "price": 1499,
         "img":"/perfume/etharial-muna30.png",
-        "category":"men"
+        "category":"men",
+        "top":"Camelia, Apple Tree Blossom, Mandarin Orange",
+        "heart":"Violet, Lemon, Rose",
+        "base":"Sandalwood, Musk, Magnolia"
     },
     {
         "name": "TOP-G",
         "size":"30ml",
         "price": 1499,
         "img":"/perfume/top-g30.png",
-        "category":"women"
+        "category":"women",
+        "top":"Apple, Lemon, Pepper",
+        "heart":"Lavender, Patchouli, Pineapple",
+        "base":"Oakmoss, Ambroxan, Cedarwood"
     }
 ]
