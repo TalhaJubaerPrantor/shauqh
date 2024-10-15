@@ -17,15 +17,25 @@ const Mid = () => {
                   products.map(product=>(
                     <div className='prod'>
                         <img style={{width:"400px"}} src={product.img} st alt="" />
-                        <h1>{product.name}</h1>
-                        <div style={{display:"grid",gridTemplateColumns:"50% 50%"}}>
-                            <span><h3>BDT : {product.price}</h3></span>
+                        <h1 style={{textAlign:"center"}}>{product.name}</h1>
+                        <div style={{display:"grid",gridTemplateColumns:"40% 60%"}}>
+                            
+                            
+                            <span>
+                                <h3>MRP : {product.price} BDT</h3>
+                                <br/>
+                                <a className='buy-now' href="/">Buy Now</a>
+                            </span>
+                            
+                            
                             <span>
                             <h4></h4>
-                            Top Notes:{product.top} <br />
-                            Heart Notes:{product.heart} <br />
-                            Base Notes:{product.base}
+                            <span style={{color:"orangered"}}>Top Notes:</span><span style={{color:"purple"}}>{product.top}</span><br /><br />
+                            <span style={{color:"orangered"}}>Heart Notes:</span><span style={{color:"purple"}}>{product.heart}</span><br /><br />
+                            <span style={{color:"orangered"}}>Base Notes:</span><span style={{color:"purple"}}>{product.base}</span>
                             </span>
+                        
+                        
                         </div>
                         
                         

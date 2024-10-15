@@ -1,5 +1,5 @@
 .prod{
-    border: .5px solid;
+    border: .5px solid gainsboro;
     width: 400px;
     border-radius: 10px;
     padding: 20px;
@@ -11,4 +11,17 @@
     grid-gap: 10px;
     margin-left: 2%;
     margin-right: 2%;
+    grid-row-gap: 40px;
+}
+
+.buy-now{
+    text-decoration: none;
+    text-align: center;
+    background: green;
+    display: grid;
+    width: 115px;
+    height: 35px;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
 }
