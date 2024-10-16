@@ -33,7 +33,7 @@ const Home = () => {
             <Navbar/>
             <div className='top-banner'>
                 <div className="right" >
-                    <img style={{height:"700px", width:"100%",userSelect:"none",transform:"scaleX(-1)"}} src="/pic/pic-top.png" alt="" />
+                    <img className='top-img' src="/pic/pic-top.png" alt="" />
                 </div>
            
             <div className='middle'>

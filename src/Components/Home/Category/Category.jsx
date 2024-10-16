@@ -4,17 +4,11 @@ import "./Category.css"
 const Category = () => {
     return (
         <div className='category-container'>
-
-            <a href="/" style={{marginLeft:"auto",marginRight:"auto"}}>
-            <div className='women'>
-                <h1 style={{color:"white",fontSize:"50px"}}>Women</h1>
-            </div>
+            <a href="" className='category' style={{background:"#ff01a5"}}>
+            <div  style={{background:"#ff01a5",color:"white"}}><h1>WOMEN</h1></div>
             </a>
-
-            <a href="/" style={{marginLeft:"auto",marginRight:"auto"}}>
-            <div className='men'>
-                <h1 style={{color:"white",fontSize:"50px"}}>Men</h1>
-            </div>
+            <a  href=""  className='category' style={{background:"purple"}}>
+            <div ><h1>MEN</h1></div>
             </a>
         </div>
     );
